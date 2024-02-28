@@ -1,0 +1,145 @@
+.nav-width{
+    width: 260px;
+}
+.home h1{
+    margin: 0;
+    font-size: 60px;
+    font-family: "Raleway", sans-serif;
+}
+
+section{
+    // padding: 60px 0;
+    overflow: hidden;
+}
+
+.home p{
+    margin: 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.content{
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.main-container{
+    background-image: url('../../../assets/WhatsApp\ Image\ 2024-02-27\ at\ 09.02.52.jpeg');
+    background-color: #292d2d;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 80px;
+    height: 100vh;
+}
+
+.bg-color{
+    background-color: white;
+}
+tool-bar{
+    height: 40px !important;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:#04091457;
+}
+
+.height-500px{
+    height: 130px;
+    width: 50%;
+    background-color: white;
+    border-radius: 50%;
+}
+.center{
+    margin-top: 110px;
+}
+
+
+.align{
+    align-items: center;
+}
+.sidenav{
+    background-color: #040b14;
+    color: #fff;
+}
+.home{
+    color: #fff;
+    height: 600px;
+    box-sizing: border-box;
+    padding-right: 751px;
+    padding-top: 190px;
+    // background-color: violet;
+    background-color: transparent;
+  
+}
+
+
+.p-absolute{
+    position: absolute;
+}
+
+.right{
+    background-color: transparent;
+}
+
+//picture
+.pic{
+    overflow: hidden;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons{
+    width: 14%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #212431;
+}
+
+.width-30{
+    width: 37%;
+    height: 50px;
+    cursor: pointer;
+    color: #a3a6b4;
+    & :hover{
+        color: #fff;
+    }
+    
+mat-icon:hover{
+    color: blue !important;
+}
+}
+
+
+.p-right{
+    padding-right: 124px;
+}
+
+.pp-right{
+    justify-content: unset;
+    padding-left: 30px;
+}
+
+
+
+.pic-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.pic-container img{
+    border-radius: 50%;
+}
+

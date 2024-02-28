@@ -1,0 +1,50 @@
+<div class="main-container">
+    <div class="container">
+        <div class="full-width full-height p-absolute ">
+            <mat-drawer-container class="full-width full-height">
+                <mat-drawer class="nav-width sidenav flex full-width" mode="side" opened #sideNav>
+                    <div class="justify full-height full-width flex column gap align ">
+                        <div class="height-500px pic flex full-width pic-container">
+                            <img src="../../../assets/WhatsApp .jpg" width="85%" height="85%">
+                        </div>
+                        <div class="justify-center full-width column">
+                            <h2 class="justify-center">Andile Msibi</h2>
+                            <div class="flex gap justify-center pp-right">
+                                <div class="social-icons justify-center" *ngFor="let social of socialIcons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap align width-30 p-right " *ngFor="let item of sideNavMenu">
+                            <mat-icon>{{item.icon}}</mat-icon>
+                            <p class="no-margin">{{item.label}}</p>
+                        </div>
+                        <button class="center-center" type="button" mat-button (click)="sideNav.toggle()">
+                            Toggle
+                        </button>
+                    </div>
+                </mat-drawer>
+
+                <mat-drawer-content class="p-absolute full-height full-width ">
+                    <app-tool-bar class="tool-bar"></app-tool-bar>
+                    <div class=" column content">
+                        <div class="home full-width center-center column ">
+                            <h1><b>Andile Msibi</b></h1>
+                            <p>I'm a <span>Business Analyst</span> </p>
+                        </div>
+                        <section>
+                            <div class="bg-color">
+                                <app-about></app-about>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div class="bg-color">
+                                <app-skills></app-skills>
+                            </div>
+                        </section>
+                    </div>
+                </mat-drawer-content>
+            </mat-drawer-container>
+        </div>
+    </div>
+</div>

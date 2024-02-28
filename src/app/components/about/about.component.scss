@@ -1,0 +1,47 @@
+.main-container{
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+       color:#173b6c ; 
+    }
+}
+
+.width-90{
+    width: 90%;
+    height: 100%;
+    color:#173b6c ;
+}
+
+.gap-1em{
+    gap: 1.5em;
+}
+.p-right{
+    padding-left: 20px;
+}
+
+.width-50{
+    width: 50%;
+    height: 215px;
+}
+
+.mid{
+    width: 90%;
+}
+.width-30{
+    width: 30%;
+    height: 500px;
+}
+
+.width-70{
+    width: 70%;
+    height: 500px;
+}
+
+.content{
+    width: 90%;
+    height: 90%;
+}
